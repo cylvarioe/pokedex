@@ -1,5 +1,5 @@
 body {
-    background-color: #EC1A1A;
+    background-color: #EC251C;
     margin: 0;
     font-family: 'Press Start 2P', cursive;
     color: white;
@@ -11,13 +11,13 @@ body {
 
 @keyframes bounce {
     20%{
-        transform: translateY(-8px);
+        transform: translateY(-10px);
     }
     40%{
         transform: translateY(0px);
     }
     60%{
-        transform: translateY(-4px);
+        transform: translateY(-5px);
     }
     80%{
         transform: translateY(-0px);
@@ -30,6 +30,10 @@ body {
     background: #f4f4f4;
     color: #222;
     text-align: center;
+    border-radius: 25px;
+    border: 2px solid #000000;
+    background-color: #FDFFCE;
+    box-shadow: 8px 8px brown;
 }
 
 .card-title {
